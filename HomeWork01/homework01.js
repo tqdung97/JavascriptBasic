@@ -7,7 +7,7 @@ function calculateFactorial(number) {
   }
   return number * calculateFactorial(number - 1);
 }
-console.log("Gia thừa là " + calculateFactorial(5));
+console.log("Giai thừa là " + calculateFactorial(5));
 
 // Bài 2: Viết function truyền vào 1 chuỗi. In ra chuỗi đảo ngược của chuỗi đó
 // Ví dụ: reverseString(‘hello’) => olleh

@@ -1,15 +1,13 @@
-function createParagraph() {
-  let a = 1;
-  let b = 22;
-  let name = "john"
-  // alert(b + a); 23
-  // alert(c);  //ko có giá trị
-
-  alert(a + name + b);
+function convertAndSum(string1, string2, sumFunction) {
+  const num1 = Number(string1);
+  const num2 = Number(string2);
+  return sumFunction(num1, num2);
 }
 
-const buttons = document.querySelectorAll("button");
-
-for (const button of buttons) {
-  button.addEventListener("click", createParagraph);
+function sum(number1, number2) {
+  return number1 + number2;
 }
+
+const result = convertAndSum(1, 2, sum);
+
+console.log(result);
