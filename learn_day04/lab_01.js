@@ -64,3 +64,29 @@ const pet3 = {
 let arr = [pet1, pet2, pet3];
 
 console.log(arr);
+
+
+class Car {
+    constructor(brand, price, country, speed) {
+        this.brand = brand;
+        this.price = price;
+        this.country = country;
+        this.speed = function() {
+            console.log( "102km/s");
+        }
+    }
+}
+
+const car = new Car("Audi", 100000000, "Đức");
+console.log(car);
+
+const sampleProto = {
+    name: "abc",
+    greet() {
+        console.log( `My name is ${this.name}`);
+    }
+
+}
+sample_1 = Object.create(sampleProto);
+
+
