@@ -17,6 +17,6 @@ const airplanePrototype = {
 Airplane.prototype = airplanePrototype;
 
 air1 = Airplane("Vietjet");
-console.log(ari1.isFlying)
+console.log(ari1.isFlying);
 air1.takeOff();
 ari1.land();
