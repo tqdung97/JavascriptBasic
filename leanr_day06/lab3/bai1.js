@@ -18,3 +18,6 @@ btn2.addEventListener("click", (minusNumber) =>{
     }
     content.textContent--;
 });
+
+
+
