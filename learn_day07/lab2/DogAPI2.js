@@ -36,6 +36,7 @@ function getImage() {
         .catch(error => {
             console.log(error);
         })
+        .fi
 }
 // Bat su kien 
 btn.addEventListener("click", function () {
